@@ -216,5 +216,4 @@ aws ec2 modify-subnet-attribute \
   --region $AWS_REGION
 echo "  'Auto-assign Public IP' ENABLED on Public2 Subnet ID" \
   "'$SUBNET_PUBLIC_ID'."
-
 echo "COMPLETED"
