@@ -20,23 +20,26 @@
 #   MODIFY THE SETTINGS BELOW
 #==============================================================================
 #
+
+
 AWS_REGION="ap-east-1"
 VPC_NAME="testnetwork"
 VPC_CIDR="172.50.200.0/25"
 Environment_TAG="Production
 SUBNET_PUBLIC1_CIDR="172.50.200.0/27"
 SUBNET_PUBLIC1_AZ="ap-southeast-1a"
-SUBNET_PUBLIC1_NAME="testnetwork_PUB_1"
+SUBNET_PUBLIC1_NAME="testnetwork_Prod_PUB_1"
 SUBNET_PUBLIC2_CIDR="172.50.200.32/27"
 SUBNET_PUBLIC2_AZ="ap-southeast-1b"
-SUBNET_PUBLIC2_NAME="testnetwork_PUB_2"
+SUBNET_PUBLIC2_NAME="testnetwork_Prod_PUB_2"
 SUBNET_PRIVATE1_CIDR="172.50.200.64/27"
 SUBNET_PRIVATE1_AZ="ap-southeast-1a"
-SUBNET_PRIVATE1_NAME="testnetwork_PRV_1"
+SUBNET_PRIVATE1_NAME="testnetwork_Prod_PRV_1"
 SUBNET_PRIVATE2_CIDR="172.50.200.96/27"
 SUBNET_PRIVATE2_AZ="ap-southeast-1b"
-SUBNET_PRIVATE2_NAME="testnetwork_PRV_2"
+SUBNET_PRIVATE2_NAME="testnetwork_Prod_PRV_2"
 CHECK_FREQUENCY=5
+
 #
 #==============================================================================
 #   DO NOT MODIFY CODE BELOW
